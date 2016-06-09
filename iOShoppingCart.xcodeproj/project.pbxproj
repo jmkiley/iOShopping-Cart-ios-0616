@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17794F8F1D09E081007D0E03 /* FISShoppingCart.m in Sources */ = {isa = PBXBuildFile; fileRef = 17794F8E1D09E081007D0E03 /* FISShoppingCart.m */; };
 		6D20EE1FB7134839A8C671A3 /* libPods-iOShoppingCartTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDFDDB4CF8047378A467E83 /* libPods-iOShoppingCartTests.a */; };
 		725C3280191BEA500050AE4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C327F191BEA500050AE4C /* Foundation.framework */; };
 		725C3282191BEA500050AE4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 725C3281191BEA500050AE4C /* CoreGraphics.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17794F8D1D09E081007D0E03 /* FISShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISShoppingCart.h; sourceTree = "<group>"; };
+		17794F8E1D09E081007D0E03 /* FISShoppingCart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISShoppingCart.m; sourceTree = "<group>"; };
 		725C327C191BEA500050AE4C /* iOShoppingCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOShoppingCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		725C327F191BEA500050AE4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		725C3281191BEA500050AE4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -52,8 +55,8 @@
 		725C32A2191BEA500050AE4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7265877919DDB04C0069AC7C /* FISItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISItem.h; sourceTree = "<group>"; };
 		7265877A19DDB04C0069AC7C /* FISItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISItem.m; sourceTree = "<group>"; };
-		72F7EAC7191D2CA3000D6B27 /* FISShoppingCartSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISShoppingCartSpec.m; sourceTree = "<group>"; };
-		72F7EAC8191D2CA3000D6B27 /* FISItemSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISItemSpec.m; sourceTree = "<group>"; };
+		72F7EAC7191D2CA3000D6B27 /* FISShoppingCartSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISShoppingCartSpec.m; path = iOShoppingCartTests/FISShoppingCartSpec.m; sourceTree = SOURCE_ROOT; };
+		72F7EAC8191D2CA3000D6B27 /* FISItemSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FISItemSpec.m; path = iOShoppingCartTests/FISItemSpec.m; sourceTree = SOURCE_ROOT; };
 		89DAF83EF1D14C9F0D2FD05F /* Pods-iOShoppingCartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOShoppingCartTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOShoppingCartTests/Pods-iOShoppingCartTests.release.xcconfig"; sourceTree = "<group>"; };
 		CFDFDDB4CF8047378A467E83 /* libPods-iOShoppingCartTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOShoppingCartTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D072E3863BEC3A6F9930C931 /* Pods-iOShoppingCartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOShoppingCartTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOShoppingCartTests/Pods-iOShoppingCartTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 			children = (
 				725C328E191BEA500050AE4C /* FISAppDelegate.h */,
 				725C328F191BEA500050AE4C /* FISAppDelegate.m */,
+				17794F8D1D09E081007D0E03 /* FISShoppingCart.h */,
+				17794F8E1D09E081007D0E03 /* FISShoppingCart.m */,
 				7265877919DDB04C0069AC7C /* FISItem.h */,
 				7265877A19DDB04C0069AC7C /* FISItem.m */,
 				725C3291191BEA500050AE4C /* Images.xcassets */,
@@ -143,8 +148,6 @@
 		725C329E191BEA500050AE4C /* iOShoppingCartTests */ = {
 			isa = PBXGroup;
 			children = (
-				72F7EAC7191D2CA3000D6B27 /* FISShoppingCartSpec.m */,
-				72F7EAC8191D2CA3000D6B27 /* FISItemSpec.m */,
 				725C329F191BEA500050AE4C /* Supporting Files */,
 			);
 			path = iOShoppingCartTests;
@@ -155,6 +158,8 @@
 			children = (
 				725C32A0191BEA500050AE4C /* iOShoppingCartTests-Info.plist */,
 				725C32A1191BEA500050AE4C /* InfoPlist.strings */,
+				72F7EAC7191D2CA3000D6B27 /* FISShoppingCartSpec.m */,
+				72F7EAC8191D2CA3000D6B27 /* FISItemSpec.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -315,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17794F8F1D09E081007D0E03 /* FISShoppingCart.m in Sources */,
 				725C328C191BEA500050AE4C /* main.m in Sources */,
 				7265877C19DDB04C0069AC7C /* FISItem.m in Sources */,
 				725C3290191BEA500050AE4C /* FISAppDelegate.m in Sources */,
